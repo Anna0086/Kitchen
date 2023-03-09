@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Кухня_Заказ CSS.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body class="Body">
+        <header class="Head">
+            <div class="Logo">
+            <a href=Кухня.html><img src="kitchen_photo/kitchenlogo.svg"></a>
+            </div>
+            <div class="Header-Links">
+            <a href="#Great" target="_blank" class="Links">Главная</a>
+                <a href="#Menu" target="_blank" class="Links">Меню</a>
+                <a href="#Promotion" target="_blank" class="Links">Акции</a>
+                <a href="#Payment" target="_blank" class="Links">Оплата</a>
+                <a href="#Comments" target="_blank" class="Links">Отзывы</a>
+            </div>
+                <h2>8 800 555 35 35</h3>
+            </header>
+            <div class="MainBody">
+            <div class="ClientInput">
+                <h1 class="Order">Оформить заказ</h1>
+            <input type="text" placeholder="Имя" required class="Input">
+            <input type="email" placeholder="Почта" required class="Input">
+            <input type="number" placeholder="Номер телефона" required class="Input">
+            <label for="localdate">Дата:</label>
+            <input type="month" name="month" class="Input"/>
+            <label for="time">Время:</label>
+            <input type="time" name="time" class="Input"/>
+            <textarea class="Comment" placeholder="Ваш комментарий"></textarea>
+            <button class="ForButton">Заказать</button>
+            </div>
+            <div class="RightContent">
+            <div class="Stars">
+                <img src="kitchen_photo/star_2.png" class="PhotoStar" id="Star1" onmouseenter="stars(1)">
+                <img src="kitchen_photo/star_2.png" class="PhotoStar" id="Star2" onmouseenter="stars(2)">
+                <img src="kitchen_photo/star_2.png" class="PhotoStar" id="Star3" onmouseenter="stars(3)">
+                <img src="kitchen_photo/star_2.png" class="PhotoStar" id="Star4" onmouseenter="stars(4)">
+                <img src="kitchen_photo/star_2.png" class="PhotoStar" id="Star5" onmouseenter="stars(5)">
+            </div>
+                <div class="SkipMenu">
+                <img src="kitchen_photo/icon1-стрелка.png">
+                <img src="kitchen_photo/meal1.png">
+                <img src="kitchen_photo/meal2.png">
+                <img src="kitchen_photo/icon2-стрелка.png">
+                </div>
+            </div>
+        </div>
+        <script src="Кухня_Заказ JS.js"></script>
+    </body>
+</html>
